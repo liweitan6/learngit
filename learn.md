@@ -11,6 +11,10 @@
 * `git reset`
     * `git reset --hard <commit_id/HEAD^>` 根据id或HEAD<^>进行版本回退
     * `git reset HEAD <file>` 将暂存区的修改撤销，放回工作区
-* `git rm` 将工作区文件删除并将删除提交到暂存区
-* `git checkout -- <file>` 用版本库的版本替换工作区的版本
+* `git rm` 将工作区文件删除并将删除提交到暂存区（工作区与版本库一致）
+* `git checkout -- <file>` 用版本库的版本替换工作区的版本  
+  
+    `git rm -> git checkout` no  
+    `git rm -> git reset HEAD -> git checkout` yes
+
 * 
