@@ -17,4 +17,16 @@
     `git rm -> git checkout` no  
     `git rm -> git reset HEAD -> git checkout` yes
 
-* 
+* `git remote add origin git@server-name:path/repo-name.git` 关联远程库，远程库名为"origin"
+* `git push -u origin master` 第一次用该命令推送master分支内容，此后使用`git push origin master`
+* `git remote -v`查看远程库信息
+* `git remote rm <repo_name>` 删除远程库
+* `git clone git@server-name:path/repo-name.git` 克隆远程库到当前文件夹下
+* `git branch` 查看分支
+* `git branch <name>` 创建分支
+* `git checkout <name> / git switch <name>` 切换分支
+* `git checkout -b <name> / git switch -c <name>` 创建并切换分支
+* `git merge <name>` 合并某分支到当前分支
+* `git branch -d <name>` 删除分支
+
+
