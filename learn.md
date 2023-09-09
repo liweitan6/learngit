@@ -8,8 +8,9 @@
     * `git diff HEAD -- <file>` 将当前提交版本与工作区对比
 * `git log` 查看提交历史，可以加上` --pretty=oneline` 简化信息
 * `git reflog` 查看命令历史，以确定回到未来的哪个版本
-* `git checkout -- <file>` 撤销工作区的修改
 * `git reset`
     * `git reset --hard <commit_id/HEAD^>` 根据id或HEAD<^>进行版本回退
     * `git reset HEAD <file>` 将暂存区的修改撤销，放回工作区
+* `git rm` 将工作区文件删除并将删除提交到暂存区
+* `git checkout -- <file>` 用版本库的版本替换工作区的版本
 * 
