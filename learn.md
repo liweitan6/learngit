@@ -24,9 +24,10 @@
 * `git clone git@server-name:path/repo-name.git` 克隆远程库到当前文件夹下
 * `git branch` 查看分支
 * `git branch <name>` 创建分支
+* `git branch -d <name>` 删除分支
 * `git checkout <name> / git switch <name>` 切换分支
 * `git checkout -b <name> / git switch -c <name>` 创建并切换分支
 * `git merge <name>` 合并某分支到当前分支
-* `git branch -d <name>` 删除分支
+* `git log --graph` 可以看到分支合并图
 
 
